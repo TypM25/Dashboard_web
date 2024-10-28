@@ -9,7 +9,7 @@ function Dropdown() {
     let [item, setItem] = useState('id')
     const [sortType, setSortType] = useState('DESC');
 
-    const url = `https://bdbank5.netlify.app/api/sort/top100/${item}/${sortType}`
+    const url = `https://dbbank4545.netlify.app/api/sort/top100/${item}/${sortType}`
 
     async function fetchData() {
         try {
