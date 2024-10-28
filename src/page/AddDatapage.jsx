@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 import { useState } from 'react';
 import axios from 'axios';
 
-const add_url = 'https://dbbank4545.netlify.app/api/add/new_data'
+const add_url = 'https://dbbank123.netlify.app/api/add/new_data'
 
 function AddDatapage() {
     const [formData, setFormData] = useState({

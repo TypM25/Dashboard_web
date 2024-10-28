@@ -5,7 +5,7 @@ import axios from 'axios';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const bank_url = 'https://dbbank4545.netlify.app/api/pie/house/loan'
+const bank_url = 'https://dbbank123.netlify.app/api/pie/house/loan'
 
 function PieGraph() {
   const [bdata, setBdata] = useState([]);

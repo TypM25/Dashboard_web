@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 ChartJS.register(LineElement, PointElement, LinearScale, CategoryScale, Tooltip, Legend);
-const bank_url='https://dbbank4545.netlify.app/api/scatterplot/age/balance'
+const bank_url='https://dbbank123.netlify.app/api/scatterplot/age/balance'
 
 function LineGraph() {
   const [bdata, setBdata] = useState([]);
