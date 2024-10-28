@@ -3,7 +3,7 @@ import axios from "axios"
 import { useNavigate } from "react-router-dom"
 
 
-const url = "https://bankkie-555.netlify.app/api/users"
+const url = "https://bdbank5.netlify.app/api/users"
 
 export default function Loginpage() {
     const [user, setUser] = useState([])
