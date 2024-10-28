@@ -30,11 +30,11 @@ export default function Loginpage() {
         const id = e.target.id
         if (id === 'unInput') {
             setUsernameinput(e.target.value)
-            
+
         }
         if (id === 'pwInput') {
             setPasswordinput(e.target.value)
-            
+
         }
     }
 
@@ -50,7 +50,7 @@ export default function Loginpage() {
 
     return (
         <div className="flex justify-center items-center p-7 border-4 h-screen ">
-            
+
             <form className="flex flex-col justify-center items-center h-[700px] w-1/2" action="">
                 <img className="w-80 mb-14" src="./image/savings.png" alt="" />
 
