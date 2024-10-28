@@ -3,7 +3,7 @@ import axios from "axios"
 import { useNavigate } from "react-router-dom"
 
 
-const url = "https://dbbank123.netlify.app/api/users"
+const url = "https://database-bank.onrender.com/api/users"
 
 export default function Loginpage() {
     const [user, setUser] = useState([])

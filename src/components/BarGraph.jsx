@@ -12,8 +12,8 @@ ChartJS.register(
     Legend
 );
 
-const jb_url = 'https://dbbank123.netlify.app/bar/job/balances';
-const mb_url = 'https://dbbank123.netlify.app/bar/marital/balances';
+const jb_url = 'https://database-bank.onrender.com/api/bar/job/balances';
+const mb_url = 'https://database-bank.onrender.com/api/bar/marital/balances';
 
 export default function BarGraph() {
     const [jobData, setJobData] = useState([]);
