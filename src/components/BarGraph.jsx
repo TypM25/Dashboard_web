@@ -12,8 +12,8 @@ ChartJS.register(
     Legend
 );
 
-const jb_url = 'http://localhost:5000/api/bar/job/balances';
-const mb_url = 'http://localhost:5000/api/bar/marital/balances';
+const jb_url = 'https://database-bank.onrender.com/api/bar/job/balances';
+const mb_url = 'https://database-bank.onrender.com/api/bar/marital/balances';
 
 export default function BarGraph() {
     const [jobData, setJobData] = useState([]);
@@ -56,7 +56,7 @@ export default function BarGraph() {
     async function fetchDrilldown(a_job) {
         setLoading(true);
         try {
-            const response3 = await axios.get(`https://dbbank4545.netlify.app/bar/drilldown/${a_job}`);
+            const response3 = await axios.get(`https://database-bank.onrender.com/api/bar/drilldown/${a_job}`);
             console.log("API Response:" + jobdd, response3.data);
             setJobData(response3.data)
             setIsdrill(true);
