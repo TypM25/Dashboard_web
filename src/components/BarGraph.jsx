@@ -12,8 +12,8 @@ ChartJS.register(
     Legend
 );
 
-const jb_url = 'https://database-bank.onrender.com/api/bar/job/balances';
-const mb_url = 'https://database-bank.onrender.com/api/bar/marital/balances';
+const jb_url = 'http://localhost:5000/api/bar/job/balances';
+const mb_url = 'http://localhost:5000/api/bar/marital/balances';
 
 export default function BarGraph() {
     const [jobData, setJobData] = useState([]);
