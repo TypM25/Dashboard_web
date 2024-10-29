@@ -51,6 +51,7 @@ function AddDatapage() {
             if (isFormValid) {
                 const result = await axios.post(add_url, formData);
                 console.log('New Data:', result.data);
+                alert("Data added successfully!");
             } else {
                 alert("Please fill all data.");
             }
