@@ -70,7 +70,7 @@ function AddDatapage() {
 
             <div className='flex flex-col justify-center items-center m-6'>
                 <label className='font-content font-bold mb-6 text-lg text-blue-600'>Add new information</label>
-                <form className="grid grid-cols-3 gap-x-28" action="" onSubmit={handleSubmit}>
+                <form className="grid grid-cols-3 gap-x-28 mb-10" action="" onSubmit={handleSubmit}>
                     <label htmlFor="age" className="flex flex-col font-content">
                         Age :
                         <input id="age" className="bg-gray-200 h-9 w-25 mb-8 p-2 rounded-md text-sky-700" onChange={handleChange} type="number" min="0" max="120" />
