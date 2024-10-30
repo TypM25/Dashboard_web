@@ -21,7 +21,7 @@ export default function Fetcher() {
                 </div>
             </div>
 
-            <div className='flex flex-col justify-center mt-14'>
+            <div className='flex flex-col justify-center mt-14 mb-14'>
                 <div className='self-center'>
                     <Dropdown />
                 </div>

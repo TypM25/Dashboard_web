@@ -63,7 +63,7 @@ function AddDatapage() {
 
 
     return (
-        <div className='min-h-screen'>
+        <div className='relative min-h-screen'>
             <nav className="sticky top-0">
                 <Navbar />
             </nav>
@@ -204,7 +204,7 @@ function AddDatapage() {
                 </form>
             </div>
 
-            <footer className='bottom-0 left-0 right-0 flex justify-center items-center mt-10 bg-blue-700 h-14'>
+            <footer className='absolute bottom-0 left-0 right-0 flex justify-center items-center mt-10 bg-blue-700 h-14'>
                 <h4 className='text-white font-content'>@Bank</h4>
             </footer>
         </div>
