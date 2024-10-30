@@ -30,7 +30,7 @@ function PieGraph() {
   const data = {
     labels: bdata.map(item => item.loan),
     datasets: [{
-      label: 'My First Dataset',
+      label: 'Amount',
       data: bdata.map(item => item.count),
       backgroundColor: [
         '#edde39',
